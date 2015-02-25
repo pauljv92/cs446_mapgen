@@ -1,9 +1,15 @@
 Satellite Image-to-Map Generation Project
 ===================
 
-Generates maps from satellite photos. 
 
-The generated maps classify regions of the satellite image such as **Buildings**, **Roads**, **Water** and **Other**. Each region is color-coded a different shade of grey to differentiate them in the map. 
+----------
+Generates maps from satellite images. 
+
+The generated maps classify regions of the satellite image as **Buildings**, **Roads**, **Water** and **Other**.
+
+ Each region is color-coded a different shade of grey to differentiate them in the map.
+
+------------------------------------------------------------------------
 
 **data_collection/**
 Folder to extract data from Google Maps API. We can filter the map image generation by State in the getmapimages.py
@@ -41,4 +47,3 @@ Sample Generated Results
 ![enter image description here](https://lh6.googleusercontent.com/-b8DvwfTizUc/VOuBKbjFh_I/AAAAAAAAAAw/p4hvxCfdbD4/s0/McKinney_Texas_satellite.png "McKinney_Texas_satellite.png")
 
 ![enter image description here](https://lh4.googleusercontent.com/-Hu9J2VCCCsc/VOuBGcAr3XI/AAAAAAAAAAk/v2JGfLbgaqw/s0/McKinney_Texas_predicated.png "McKinney_Texas_predicated.png")
-
