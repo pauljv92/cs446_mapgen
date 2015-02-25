@@ -1,0 +1,1 @@
+Place 800x800 Satellite images in this folder before running train_test.py
