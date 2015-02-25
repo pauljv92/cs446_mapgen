@@ -7,9 +7,7 @@ Generates maps from satellite photos.
 Folder to extract data from Google Maps API. We can filter the map image generation by State in the getmapimages.py
 
 **model_generation/**
-Scripts used to generate training data and using training model. We used Weka to generate decforests2.model which is a Random Forest implementation. To generate prediction images, load map_data/ with satellite data of 800x800 satellite \
-images(containing "satellite" in the filename), and then run python train_test.py. The map generation images from the model will be generated in the map_data/ folder. To change the model being used we have to use weka to generate a mode\
-l and change the model location string in predict.java and recompile the class. Then re-run python train_test.py.
+Scripts used to generate training data and using training model. We used Weka to generate decforests2.model which is a Random Forest implementation. To generate prediction images, load map_data/ with satellite data of 800x800 satellite images(containing "satellite" in the filename), and then run python train_test.py. The map generation images from the model will be generated in the map_data/ folder. To change the model being used we have to use weka to generate a model and change the model location string in predict.java and recompile the class. Then re-run python train_test.py.
 
 **mapgen_results/**
 Results of test map generation runs from initial phase of model testing and evaluation. There are 3 runs displayed here.
