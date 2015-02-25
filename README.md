@@ -1,7 +1,9 @@
 Satellite Image-to-Map Generation Project
 ===================
 
-Generates maps from satellite photos. The generated maps classify regions such as Buildings, Roads, Water and Other. Each region is color-coded a different shade of grey to differentiate them in the map. 
+Generates maps from satellite photos. 
+
+The generated maps classify regions of the satellite image such as **Buildings**, **Roads**, **Water** and **Other**. Each region is color-coded a different shade of grey to differentiate them in the map. 
 
 **data_collection/**
 Folder to extract data from Google Maps API. We can filter the map image generation by State in the getmapimages.py
